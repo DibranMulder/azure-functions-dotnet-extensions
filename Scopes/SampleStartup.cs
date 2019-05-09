@@ -12,7 +12,6 @@ namespace Microsoft.Azure.Functions.Samples.DependencyInjectionScopes
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-
             // Register MyServiceA as transient.
             // A new instance will be returned every
             // time a service request is made
@@ -27,7 +26,6 @@ namespace Microsoft.Azure.Functions.Samples.DependencyInjectionScopes
             // The same instance will be returned
             // within the scope of a function invocation
             builder.Services.AddScoped<ICommonIdProvider, CommonIdProvider>();
-
 
             // Register IGlobalIdProvider as singleton.
             // A single instance will be created and reused
