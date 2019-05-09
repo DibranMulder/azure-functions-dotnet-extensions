@@ -1,7 +1,7 @@
-# .NET Extensions for Azure Functions
+# Azure Functions Dependency Injection example
 
-|Branch|Status|
-|---|---|
-|master|[![Build Status](https://azfunc.visualstudio.com/Azure%20Functions/_apis/build/status/azure-functions-dotnet-extensions-ci?branchName=master)](https://azfunc.visualstudio.com/Azure%20Functions/_build/latest?definitionId=6&branchName=master)
+This repo is an Azure Functions dependency injection example for .NET. Implementation is forked from: https://github.com/Azure/azure-functions-dotnet-extensions, but refactored to use the Nuget package `Microsoft.Azure.Functions.Extensions`
 
-The .NET Extensions for Azure Functions is an open-source, cross-platform set of APIs for commonly used programming patterns and utilities, in Azure Functions.
+Implementation is according to the [Microsoft Docs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection).
+
+
