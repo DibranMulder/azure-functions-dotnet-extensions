@@ -31,6 +31,8 @@ namespace Microsoft.Azure.Functions.Samples.DependencyInjectionScopes
             // A single instance will be created and reused
             // with every service request
             builder.Services.AddSingleton<IGlobalIdProvider, CommonIdProvider>();
+
+            builder.Services.AddHttpClient();
         }
     }
 }
